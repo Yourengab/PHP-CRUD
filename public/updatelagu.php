@@ -66,7 +66,7 @@ if( isset($_POST['updateLagu']) ) {
             <label for="cover">Cover</label>
             <input type="text" id="cover" name="cover" value="<?= $updateLagu[0]['cover']?>"/>
           </div>
-          <button type="submit" name="updateLagu">Tambah Lagu</button>
+          <button type="submit" name="updateLagu">Update Lagu</button>
         </form>
       </div>
     </div>
